@@ -36,7 +36,6 @@ class Routes extends Component {
     constructor(props){
     super(props)
     this.state = {
-        class: '',
         recipes:recipes
     }
     this.addRecipe = this.addRecipe.bind(this)
