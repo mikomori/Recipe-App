@@ -1,0 +1,41 @@
+.RecipeList{
+    display:flex;
+    flex-wrap: wrap;
+    width:1200px;
+    margin:20px auto 0;
+    animation:blink 1s;
+}
+.view{
+    position:fixed;
+    height:100vh;
+    width:100%;
+    background:rgba(0,0,0,0.8);
+    top:0;
+    left:0;
+    z-index: -999;
+    transition:0.3s;
+    opacity: 0;
+}
+.view img{
+    height:85vh;
+    width:auto;
+    margin:5vh auto 0;
+    display:block;
+}
+.view p{
+    color:lightgray;
+    text-align: center;
+}
+.show{
+    z-index: 999;
+    opacity: 1;
+}
+.close-display{
+    cursor: pointer;
+    color:lightgray;
+    font-size: 20px;
+    padding:10px;
+    position: absolute;
+    left:90%;
+    top:5vh;
+}

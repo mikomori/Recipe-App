@@ -1,0 +1,44 @@
+.Nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    /* border-bottom:1px solid lightgray; */
+    width:70%;
+    margin:20px auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#about{
+    margin-left: 70px;
+    cursor:pointer;
+}
+#logo{
+    letter-spacing: 2px;
+}
+#add-new{
+    display: flex;
+    align-items: center;   
+    cursor:pointer;
+}
+#add-new:hover span{
+    background:black;
+    color:white;
+}
+#add-new span{
+    display: inline-block;
+    padding:10px 13px 7px;
+    font-size: 20px;   
+    border:2px solid black;
+    transition:0.2s;
+}
+#add-new p{
+    display:inline-block;
+    margin-left:15px;
+}

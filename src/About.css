@@ -1,0 +1,16 @@
+.About{
+    width:900px;
+    margin:100px auto;
+    animation:blink .7s;
+}
+@keyframes blink{
+    from{transform:translateY(-70px);opacity:0}
+    to{transform:translateY(0);opacity:1}
+}
+.About h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.About p{
+    color:#565656;
+}

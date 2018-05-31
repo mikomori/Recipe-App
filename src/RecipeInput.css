@@ -1,0 +1,57 @@
+.wrapper{
+    position: fixed;
+    transform: translateY(-100%);
+    transition:0.6s;
+    width:100%;
+    top:0;
+    display:flex;
+    opacity:0;
+    background:white;
+    min-height:100vh;
+}
+.RecipeInput{
+    margin:auto;
+    width:500px;
+    padding:20px;
+    margin-top:50px;
+}
+.slide-down{
+    transform: translateY(0);
+    opacity:1;
+}
+input{
+    display:block;
+    padding:13px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;  
+}
+textarea{
+    width: 500px;
+    height:100px;
+    padding:10px;
+    box-sizing: border-box;
+}
+#submit-btn{
+    background:white;
+    border:2px solid black;
+    cursor:pointer;
+    margin-top:20px;
+    width: 100px;
+    font-weight: bolder;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+#add{
+    background:black;
+    color:white;
+    font-size: 20px;
+    padding:5px 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left:290px;
+}
+#close{
+    cursor: pointer;
+    font-size: 20px;
+    float:right;
+}
