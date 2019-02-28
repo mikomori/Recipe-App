@@ -2,11 +2,13 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px 0;
-    /* border-bottom:1px solid lightgray; */
-    width:70%;
-    margin:20px auto;
-}
+    padding:30px;
+    border-bottom:2px solid black;
+    width:90%;
+    max-width: 1160px;
+    margin:0 auto 50px;
+    box-sizing: border-box;
+}   
 a{
     text-decoration: none;
     color:black;
@@ -21,6 +23,8 @@ a{
 }
 #logo{
     letter-spacing: 2px;
+    font-weight: bold;
+    cursor:pointer;
 }
 #add-new{
     display: flex;
