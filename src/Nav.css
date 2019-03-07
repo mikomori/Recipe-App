@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding:30px;
-    border-bottom:2px solid black;
+    /* border-bottom:2px solid black; */
     width:90%;
     max-width: 1160px;
-    margin:0 auto 50px;
+    margin:0 auto;
     box-sizing: border-box;
 }   
 a{
@@ -22,9 +22,10 @@ a{
     cursor:pointer;
 }
 #logo{
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-weight: bold;
     cursor:pointer;
+    font-size: 20px;
 }
 #add-new{
     display: flex;
